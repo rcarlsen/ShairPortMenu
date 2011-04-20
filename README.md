@@ -1,6 +1,7 @@
 ShairPortMenu v0.1
 ==================
 Robert Carlsen | robertcarlsen.net
+[Announcement and binary](http://robertcarlsen.net/2011/04/17/weekend-project-shairport-menulet-1365)
 
 Description
 -----------
