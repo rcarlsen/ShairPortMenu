@@ -47,7 +47,9 @@
 {
     [super windowDidLoad];
     
-    [self.versionLabel setStringValue:[NSString stringWithFormat:NSLocalizedString(@"Version: %@","Version label"),kSPMVersion]];
+    [self.versionLabel setStringValue:[NSString stringWithFormat:
+                                       NSLocalizedString(@"Version: %@","Version label"),
+                                       [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"]]];
     
     // set up the about text:
     NSBundle *bundle = [NSBundle mainBundle];

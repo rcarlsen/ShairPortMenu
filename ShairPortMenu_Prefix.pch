@@ -4,6 +4,4 @@
 
 #ifdef __OBJC__
     #import <Cocoa/Cocoa.h>
-
-    #define kSPMVersion @"0.1"
 #endif
