@@ -42,6 +42,7 @@
     id preferencesWindow;
     
     id shairPortController;
+    ShairPortModel *shairportModel;
 }
 
 @property (assign) IBOutlet NSWindow *window;
