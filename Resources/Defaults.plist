@@ -4,9 +4,9 @@
 <dict>
 	<key>SPServerName</key>
 	<string></string>
-	<key>SPUsePassword</key>
-	<true/>
 	<key>SPServerPassword</key>
 	<string></string>
+	<key>SPUsePassword</key>
+	<false/>
 </dict>
 </plist>

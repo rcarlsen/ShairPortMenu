@@ -81,12 +81,14 @@
             // add args for hostname {optionally, password}
             NSMutableArray *args = [NSMutableArray arrayWithCapacity:4];
             NSString *name = shairportModel.serverName;
-            if (name == nil || [name isEqualToString:@""]) {
-                name = [[NSProcessInfo processInfo] hostName];
+            // if (name == nil || [name isEqualToString:@""]) {
+            //     name = [[NSProcessInfo processInfo] hostName];
+            // }
+            if (name != nil && ![name isEqualToString:@""]) {
+                [args addObject:@"--apname"];
+                [args addObject:name];
             }
-            [args addObject:@"--apname"];
-            [args addObject:name];
-            
+
             if (shairportModel.usePassword) {
                 [args addObject:@"--password"];
                 [args addObject:shairportModel.serverPassword];
