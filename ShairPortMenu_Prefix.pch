@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'ShairPortMenu' target in the 'ShairPortMenu' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+
+    #define kSPMVersion @"0.1"
+#endif

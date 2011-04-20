@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24029A1B135D3D1700C92AE5 /* ShairPortMenuAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24029A18135D3D1700C92AE5 /* ShairPortMenuAppDelegate.m */; };
+		24029A1C135D3D1700C92AE5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24029A1A135D3D1700C92AE5 /* MainMenu.xib */; };
+		24029A2A135D3D2E00C92AE5 /* about.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 24029A1F135D3D2E00C92AE5 /* about.rtf */; };
+		24029A2B135D3D2E00C92AE5 /* Defaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24029A20135D3D2E00C92AE5 /* Defaults.plist */; };
+		24029A2C135D3D2E00C92AE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24029A21135D3D2E00C92AE5 /* InfoPlist.strings */; };
+		24029A2D135D3D2E00C92AE5 /* hairtunes in Resources */ = {isa = PBXBuildFile; fileRef = 24029A23135D3D2E00C92AE5 /* hairtunes */; };
+		24029A32135D3D2E00C92AE5 /* shairport.pl in Resources */ = {isa = PBXBuildFile; fileRef = 24029A29135D3D2E00C92AE5 /* shairport.pl */; };
+		24029A39135D3E5A00C92AE5 /* ShairPortModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 24029A38135D3E5A00C92AE5 /* ShairPortModel.m */; };
+		24029A3C135D3F0200C92AE5 /* ShairPreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24029A3B135D3F0200C92AE5 /* ShairPreferencesController.m */; };
+		24029A3E135D3FA400C92AE5 /* ShairPreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24029A3D135D3FA400C92AE5 /* ShairPreferencesWindow.xib */; };
+		24029A41135D40E600C92AE5 /* ShairPortController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24029A40135D40E600C92AE5 /* ShairPortController.m */; };
+		24029A43135D416E00C92AE5 /* AboutPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24029A42135D416E00C92AE5 /* AboutPanel.xib */; };
+		24029A46135D431B00C92AE5 /* AboutPanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24029A45135D431B00C92AE5 /* AboutPanelController.m */; };
+		24029A53135E69DD00C92AE5 /* hairplay-active.png in Resources */ = {isa = PBXBuildFile; fileRef = 24029A4F135E69DD00C92AE5 /* hairplay-active.png */; };
+		24029A54135E69DD00C92AE5 /* hairplay-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 24029A50135E69DD00C92AE5 /* hairplay-off.png */; };
+		24029A55135E69DD00C92AE5 /* hairplay-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 24029A51135E69DD00C92AE5 /* hairplay-on.png */; };
+		24029A56135E69DD00C92AE5 /* hairplay-over.png in Resources */ = {isa = PBXBuildFile; fileRef = 24029A52135E69DD00C92AE5 /* hairplay-over.png */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		24029A17135D3D1700C92AE5 /* ShairPortMenuAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShairPortMenuAppDelegate.h; sourceTree = "<group>"; };
+		24029A18135D3D1700C92AE5 /* ShairPortMenuAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShairPortMenuAppDelegate.m; sourceTree = "<group>"; };
+		24029A1A135D3D1700C92AE5 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		24029A1F135D3D2E00C92AE5 /* about.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = about.rtf; sourceTree = "<group>"; };
+		24029A20135D3D2E00C92AE5 /* Defaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Defaults.plist; sourceTree = "<group>"; };
+		24029A22135D3D2E00C92AE5 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		24029A23135D3D2E00C92AE5 /* hairtunes */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = hairtunes; sourceTree = "<group>"; };
+		24029A29135D3D2E00C92AE5 /* shairport.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; path = shairport.pl; sourceTree = "<group>"; };
+		24029A33135D3D6200C92AE5 /* ShairPortMenu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShairPortMenu-Info.plist"; sourceTree = "<group>"; };
+		24029A37135D3E5A00C92AE5 /* ShairPortModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShairPortModel.h; sourceTree = "<group>"; };
+		24029A38135D3E5A00C92AE5 /* ShairPortModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShairPortModel.m; sourceTree = "<group>"; };
+		24029A3A135D3F0200C92AE5 /* ShairPreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShairPreferencesController.h; sourceTree = "<group>"; };
+		24029A3B135D3F0200C92AE5 /* ShairPreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShairPreferencesController.m; sourceTree = "<group>"; };
+		24029A3D135D3FA400C92AE5 /* ShairPreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShairPreferencesWindow.xib; sourceTree = "<group>"; };
+		24029A3F135D40E600C92AE5 /* ShairPortController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShairPortController.h; sourceTree = "<group>"; };
+		24029A40135D40E600C92AE5 /* ShairPortController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShairPortController.m; sourceTree = "<group>"; };
+		24029A42135D416E00C92AE5 /* AboutPanel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutPanel.xib; sourceTree = "<group>"; };
+		24029A44135D431B00C92AE5 /* AboutPanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutPanelController.h; sourceTree = "<group>"; };
+		24029A45135D431B00C92AE5 /* AboutPanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutPanelController.m; sourceTree = "<group>"; };
+		24029A4F135E69DD00C92AE5 /* hairplay-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hairplay-active.png"; sourceTree = "<group>"; };
+		24029A50135E69DD00C92AE5 /* hairplay-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hairplay-off.png"; sourceTree = "<group>"; };
+		24029A51135E69DD00C92AE5 /* hairplay-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hairplay-on.png"; sourceTree = "<group>"; };
+		24029A52135E69DD00C92AE5 /* hairplay-over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hairplay-over.png"; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* ShairPortMenu_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShairPortMenu_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107320486CEB800E47090 /* ShairPort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShairPort.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* ShairPort.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24029A14135D3D1700C92AE5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				24029A17135D3D1700C92AE5 /* ShairPortMenuAppDelegate.h */,
+				24029A18135D3D1700C92AE5 /* ShairPortMenuAppDelegate.m */,
+				24029A15135D3D1700C92AE5 /* Controllers */,
+				24029A16135D3D1700C92AE5 /* Models */,
+				24029A19135D3D1700C92AE5 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		24029A15135D3D1700C92AE5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				24029A3A135D3F0200C92AE5 /* ShairPreferencesController.h */,
+				24029A3B135D3F0200C92AE5 /* ShairPreferencesController.m */,
+				24029A3F135D40E600C92AE5 /* ShairPortController.h */,
+				24029A40135D40E600C92AE5 /* ShairPortController.m */,
+				24029A44135D431B00C92AE5 /* AboutPanelController.h */,
+				24029A45135D431B00C92AE5 /* AboutPanelController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		24029A16135D3D1700C92AE5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				24029A37135D3E5A00C92AE5 /* ShairPortModel.h */,
+				24029A38135D3E5A00C92AE5 /* ShairPortModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		24029A19135D3D1700C92AE5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				24029A1A135D3D1700C92AE5 /* MainMenu.xib */,
+				24029A3D135D3FA400C92AE5 /* ShairPreferencesWindow.xib */,
+				24029A42135D416E00C92AE5 /* AboutPanel.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		24029A1E135D3D2E00C92AE5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				24029A24135D3D2E00C92AE5 /* images */,
+				24029A1F135D3D2E00C92AE5 /* about.rtf */,
+				24029A20135D3D2E00C92AE5 /* Defaults.plist */,
+				24029A21135D3D2E00C92AE5 /* InfoPlist.strings */,
+				24029A23135D3D2E00C92AE5 /* hairtunes */,
+				24029A29135D3D2E00C92AE5 /* shairport.pl */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		24029A24135D3D2E00C92AE5 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				24029A4F135E69DD00C92AE5 /* hairplay-active.png */,
+				24029A50135E69DD00C92AE5 /* hairplay-off.png */,
+				24029A51135E69DD00C92AE5 /* hairplay-on.png */,
+				24029A52135E69DD00C92AE5 /* hairplay-over.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* ShairPortMenu */ = {
+			isa = PBXGroup;
+			children = (
+				24029A14135D3D1700C92AE5 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				24029A1E135D3D2E00C92AE5 /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = ShairPortMenu;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				24029A33135D3D6200C92AE5 /* ShairPortMenu-Info.plist */,
+				256AC3F00F4B6AF500CF3369 /* ShairPortMenu_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* ShairPortMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "ShairPortMenu" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShairPortMenu;
+			productInstallPath = "$(HOME)/Applications";
+			productName = ShairPortMenu;
+			productReference = 8D1107320486CEB800E47090 /* ShairPort.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = robertcarlsen.net;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ShairPortMenu" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+				English,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* ShairPortMenu */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* ShairPortMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24029A1C135D3D1700C92AE5 /* MainMenu.xib in Resources */,
+				24029A2A135D3D2E00C92AE5 /* about.rtf in Resources */,
+				24029A2B135D3D2E00C92AE5 /* Defaults.plist in Resources */,
+				24029A2C135D3D2E00C92AE5 /* InfoPlist.strings in Resources */,
+				24029A2D135D3D2E00C92AE5 /* hairtunes in Resources */,
+				24029A32135D3D2E00C92AE5 /* shairport.pl in Resources */,
+				24029A3E135D3FA400C92AE5 /* ShairPreferencesWindow.xib in Resources */,
+				24029A43135D416E00C92AE5 /* AboutPanel.xib in Resources */,
+				24029A53135E69DD00C92AE5 /* hairplay-active.png in Resources */,
+				24029A54135E69DD00C92AE5 /* hairplay-off.png in Resources */,
+				24029A55135E69DD00C92AE5 /* hairplay-on.png in Resources */,
+				24029A56135E69DD00C92AE5 /* hairplay-over.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				24029A1B135D3D1700C92AE5 /* ShairPortMenuAppDelegate.m in Sources */,
+				24029A39135D3E5A00C92AE5 /* ShairPortModel.m in Sources */,
+				24029A3C135D3F0200C92AE5 /* ShairPreferencesController.m in Sources */,
+				24029A41135D40E600C92AE5 /* ShairPortController.m in Sources */,
+				24029A46135D431B00C92AE5 /* AboutPanelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		24029A21135D3D2E00C92AE5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24029A22135D3D2E00C92AE5 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ShairPortMenu_Prefix.pch;
+				INFOPLIST_FILE = "ShairPortMenu-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = ShairPort;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ShairPortMenu_Prefix.pch;
+				INFOPLIST_FILE = "ShairPortMenu-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = ShairPort;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "ShairPortMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ShairPortMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
