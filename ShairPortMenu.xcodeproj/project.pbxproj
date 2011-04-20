@@ -12,8 +12,6 @@
 		24029A2A135D3D2E00C92AE5 /* about.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 24029A1F135D3D2E00C92AE5 /* about.rtf */; };
 		24029A2B135D3D2E00C92AE5 /* Defaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24029A20135D3D2E00C92AE5 /* Defaults.plist */; };
 		24029A2C135D3D2E00C92AE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24029A21135D3D2E00C92AE5 /* InfoPlist.strings */; };
-		24029A2D135D3D2E00C92AE5 /* hairtunes in Resources */ = {isa = PBXBuildFile; fileRef = 24029A23135D3D2E00C92AE5 /* hairtunes */; };
-		24029A32135D3D2E00C92AE5 /* shairport.pl in Resources */ = {isa = PBXBuildFile; fileRef = 24029A29135D3D2E00C92AE5 /* shairport.pl */; };
 		24029A39135D3E5A00C92AE5 /* ShairPortModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 24029A38135D3E5A00C92AE5 /* ShairPortModel.m */; };
 		24029A3C135D3F0200C92AE5 /* ShairPreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24029A3B135D3F0200C92AE5 /* ShairPreferencesController.m */; };
 		24029A3E135D3FA400C92AE5 /* ShairPreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24029A3D135D3FA400C92AE5 /* ShairPreferencesWindow.xib */; };
@@ -24,6 +22,7 @@
 		24029A54135E69DD00C92AE5 /* hairplay-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 24029A50135E69DD00C92AE5 /* hairplay-off.png */; };
 		24029A55135E69DD00C92AE5 /* hairplay-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 24029A51135E69DD00C92AE5 /* hairplay-on.png */; };
 		24029A56135E69DD00C92AE5 /* hairplay-over.png in Resources */ = {isa = PBXBuildFile; fileRef = 24029A52135E69DD00C92AE5 /* hairplay-over.png */; };
+		24029A5B135E92AC00C92AE5 /* bin in Resources */ = {isa = PBXBuildFile; fileRef = 24029A5A135E92AC00C92AE5 /* bin */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
@@ -37,8 +36,6 @@
 		24029A1F135D3D2E00C92AE5 /* about.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = about.rtf; sourceTree = "<group>"; };
 		24029A20135D3D2E00C92AE5 /* Defaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Defaults.plist; sourceTree = "<group>"; };
 		24029A22135D3D2E00C92AE5 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		24029A23135D3D2E00C92AE5 /* hairtunes */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = hairtunes; sourceTree = "<group>"; };
-		24029A29135D3D2E00C92AE5 /* shairport.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; path = shairport.pl; sourceTree = "<group>"; };
 		24029A33135D3D6200C92AE5 /* ShairPortMenu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShairPortMenu-Info.plist"; sourceTree = "<group>"; };
 		24029A37135D3E5A00C92AE5 /* ShairPortModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShairPortModel.h; sourceTree = "<group>"; };
 		24029A38135D3E5A00C92AE5 /* ShairPortModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShairPortModel.m; sourceTree = "<group>"; };
@@ -54,6 +51,7 @@
 		24029A50135E69DD00C92AE5 /* hairplay-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hairplay-off.png"; sourceTree = "<group>"; };
 		24029A51135E69DD00C92AE5 /* hairplay-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hairplay-on.png"; sourceTree = "<group>"; };
 		24029A52135E69DD00C92AE5 /* hairplay-over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hairplay-over.png"; sourceTree = "<group>"; };
+		24029A5A135E92AC00C92AE5 /* bin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bin; sourceTree = "<group>"; };
 		256AC3F00F4B6AF500CF3369 /* ShairPortMenu_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShairPortMenu_Prefix.pch; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
@@ -146,12 +144,11 @@
 		24029A1E135D3D2E00C92AE5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				24029A5A135E92AC00C92AE5 /* bin */,
 				24029A24135D3D2E00C92AE5 /* images */,
 				24029A1F135D3D2E00C92AE5 /* about.rtf */,
 				24029A20135D3D2E00C92AE5 /* Defaults.plist */,
 				24029A21135D3D2E00C92AE5 /* InfoPlist.strings */,
-				24029A23135D3D2E00C92AE5 /* hairtunes */,
-				24029A29135D3D2E00C92AE5 /* shairport.pl */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -253,14 +250,13 @@
 				24029A2A135D3D2E00C92AE5 /* about.rtf in Resources */,
 				24029A2B135D3D2E00C92AE5 /* Defaults.plist in Resources */,
 				24029A2C135D3D2E00C92AE5 /* InfoPlist.strings in Resources */,
-				24029A2D135D3D2E00C92AE5 /* hairtunes in Resources */,
-				24029A32135D3D2E00C92AE5 /* shairport.pl in Resources */,
 				24029A3E135D3FA400C92AE5 /* ShairPreferencesWindow.xib in Resources */,
 				24029A43135D416E00C92AE5 /* AboutPanel.xib in Resources */,
 				24029A53135E69DD00C92AE5 /* hairplay-active.png in Resources */,
 				24029A54135E69DD00C92AE5 /* hairplay-off.png in Resources */,
 				24029A55135E69DD00C92AE5 /* hairplay-on.png in Resources */,
 				24029A56135E69DD00C92AE5 /* hairplay-over.png in Resources */,
+				24029A5B135E92AC00C92AE5 /* bin in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +329,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				SDKROOT = macosx10.6;
@@ -346,6 +343,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				PREBINDING = NO;
 				SDKROOT = macosx10.6;
 			};

@@ -41,11 +41,8 @@
 
 
 #pragma mark - Application Delegate
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application    
-    
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {    
     // set up the app data model
-    // TODO: use coding
     self.shairportModel = [[ShairPortModel alloc] init];
     shairPortController = [[ShairPortController alloc] init];
     [shairPortController setDelegate:self];
@@ -55,7 +52,6 @@
 {
     [shairPortController setServerRunning:NO];
     
-    // save defaults, then cleanup;
     [shairPortController release];
     [shairportModel release];
 

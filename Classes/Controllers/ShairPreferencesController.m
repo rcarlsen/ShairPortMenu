@@ -32,7 +32,6 @@
 {
     self = [super initWithWindow:window];
     if (self) {
-        // Initialization code here.
         model = (ShairPortModel*)[(ShairPortMenuAppDelegate*)[NSApp delegate] shairportModel];
     }
     
