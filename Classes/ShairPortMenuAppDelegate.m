@@ -79,9 +79,14 @@
         
         [controlMenuItem setTitle:NSLocalizedString(@"Turn ShairPort off", "Menu item title")];
         [controlMenuItem setState:1];
+        
+        NSString *displayName = ([shairportModel.serverName isEqualToString:@""]) ? 
+         NSLocalizedString(@"Default Name","Server default display name") :
+         shairportModel.serverName;
+        
         [statusMenuItem setTitle:[NSString stringWithFormat:
                                   NSLocalizedString(@"ShairPort: %@", "Menu item title"),
-                                  shairportModel.serverName]];
+                                  displayName]];
     }
     else {
         [self setTooltipStatus:isOn];
