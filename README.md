@@ -12,9 +12,11 @@ Read more about ShairPort / HairTunes at the github site:
 
 [https://github.com/albertz/shairport](https://github.com/albertz/shairport)
 
-shairport.pl and hairtunes are included in this repo, however you may have to 
-prepare your system to use them. Read the installation instructions at the above link. 
-This version of hairtunes was compiled with OS X 10.6.7 on an Intel x86_64 processor. YMMV.
+The above shairport repo is included as a submodule in this project. You will have to run:
+    $ git submodule init
+    $ git submodule update
+to initialize the submodule and checkout the latest files in your local copy of this repo.
+Follow the building instructions for ShairPort and hairtunes at the above link.
 
 Building
 --------
