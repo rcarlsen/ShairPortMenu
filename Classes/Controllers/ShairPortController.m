@@ -65,7 +65,7 @@
             
             NSBundle *bundle = [NSBundle mainBundle];
             NSString *shairportPath;
-            shairportPath = [bundle pathForResource:@"shairport" ofType:@"pl" inDirectory:@"bin"];
+            shairportPath = [bundle pathForResource:@"shairport" ofType:@"pl"];
             
             if (shairportPath == nil) {
                 NSLog(@"shairport.pl not found. bailing out.");

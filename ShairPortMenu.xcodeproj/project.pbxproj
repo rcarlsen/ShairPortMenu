@@ -22,7 +22,8 @@
 		24029A54135E69DD00C92AE5 /* hairplay-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 24029A50135E69DD00C92AE5 /* hairplay-off.png */; };
 		24029A55135E69DD00C92AE5 /* hairplay-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 24029A51135E69DD00C92AE5 /* hairplay-on.png */; };
 		24029A56135E69DD00C92AE5 /* hairplay-over.png in Resources */ = {isa = PBXBuildFile; fileRef = 24029A52135E69DD00C92AE5 /* hairplay-over.png */; };
-		24029A5B135E92AC00C92AE5 /* bin in Resources */ = {isa = PBXBuildFile; fileRef = 24029A5A135E92AC00C92AE5 /* bin */; };
+		24A66BB6135FE05B00EBB481 /* hairtunes in Resources */ = {isa = PBXBuildFile; fileRef = 24A66BB4135FE05B00EBB481 /* hairtunes */; };
+		24A66BB7135FE05B00EBB481 /* shairport.pl in Resources */ = {isa = PBXBuildFile; fileRef = 24A66BB5135FE05B00EBB481 /* shairport.pl */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
@@ -51,7 +52,8 @@
 		24029A50135E69DD00C92AE5 /* hairplay-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hairplay-off.png"; sourceTree = "<group>"; };
 		24029A51135E69DD00C92AE5 /* hairplay-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hairplay-on.png"; sourceTree = "<group>"; };
 		24029A52135E69DD00C92AE5 /* hairplay-over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hairplay-over.png"; sourceTree = "<group>"; };
-		24029A5A135E92AC00C92AE5 /* bin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bin; sourceTree = "<group>"; };
+		24A66BB4135FE05B00EBB481 /* hairtunes */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = hairtunes; path = bin/shairport/hairtunes; sourceTree = "<group>"; };
+		24A66BB5135FE05B00EBB481 /* shairport.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; name = shairport.pl; path = bin/shairport/shairport.pl; sourceTree = "<group>"; };
 		256AC3F00F4B6AF500CF3369 /* ShairPortMenu_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShairPortMenu_Prefix.pch; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
@@ -144,7 +146,7 @@
 		24029A1E135D3D2E00C92AE5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				24029A5A135E92AC00C92AE5 /* bin */,
+				24A66BB3135FE01000EBB481 /* bin */,
 				24029A24135D3D2E00C92AE5 /* images */,
 				24029A1F135D3D2E00C92AE5 /* about.rtf */,
 				24029A20135D3D2E00C92AE5 /* Defaults.plist */,
@@ -162,6 +164,15 @@
 				24029A52135E69DD00C92AE5 /* hairplay-over.png */,
 			);
 			path = images;
+			sourceTree = "<group>";
+		};
+		24A66BB3135FE01000EBB481 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				24A66BB4135FE05B00EBB481 /* hairtunes */,
+				24A66BB5135FE05B00EBB481 /* shairport.pl */,
+			);
+			name = bin;
 			sourceTree = "<group>";
 		};
 		29B97314FDCFA39411CA2CEA /* ShairPortMenu */ = {
@@ -256,7 +267,8 @@
 				24029A54135E69DD00C92AE5 /* hairplay-off.png in Resources */,
 				24029A55135E69DD00C92AE5 /* hairplay-on.png in Resources */,
 				24029A56135E69DD00C92AE5 /* hairplay-over.png in Resources */,
-				24029A5B135E92AC00C92AE5 /* bin in Resources */,
+				24A66BB6135FE05B00EBB481 /* hairtunes in Resources */,
+				24A66BB7135FE05B00EBB481 /* shairport.pl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
