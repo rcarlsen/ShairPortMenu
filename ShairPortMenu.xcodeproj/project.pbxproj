@@ -24,6 +24,7 @@
 		24029A56135E69DD00C92AE5 /* hairplay-over.png in Resources */ = {isa = PBXBuildFile; fileRef = 24029A52135E69DD00C92AE5 /* hairplay-over.png */; };
 		242946BE1361482600623EEE /* libao.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 242946BD1361482600623EEE /* libao.4.dylib */; };
 		242946BF1361483C00623EEE /* libao.4.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 242946BD1361482600623EEE /* libao.4.dylib */; };
+		242946FF1362BD6600623EEE /* shairPortMenu.icns in Resources */ = {isa = PBXBuildFile; fileRef = 242946FE1362BD6600623EEE /* shairPortMenu.icns */; };
 		2434908613614614004B1BE0 /* hairtunes in Resources */ = {isa = PBXBuildFile; fileRef = 2434908513614614004B1BE0 /* hairtunes */; };
 		24A66BB7135FE05B00EBB481 /* shairport.pl in Resources */ = {isa = PBXBuildFile; fileRef = 24A66BB5135FE05B00EBB481 /* shairport.pl */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -73,6 +74,7 @@
 		24029A52135E69DD00C92AE5 /* hairplay-over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hairplay-over.png"; sourceTree = "<group>"; };
 		242946AF136146D800623EEE /* hairtunes.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = hairtunes.xcodeproj; path = bin/hairtunes/hairtunes.xcodeproj; sourceTree = "<group>"; };
 		242946BD1361482600623EEE /* libao.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libao.4.dylib; path = bin/hairtunes/libao.4.dylib; sourceTree = "<group>"; };
+		242946FE1362BD6600623EEE /* shairPortMenu.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = shairPortMenu.icns; path = ../../shairPortMenu.icns; sourceTree = "<group>"; };
 		2434908513614614004B1BE0 /* hairtunes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = hairtunes; sourceTree = BUILT_PRODUCTS_DIR; };
 		24A66BB5135FE05B00EBB481 /* shairport.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; name = shairport.pl; path = bin/shairport/shairport.pl; sourceTree = "<group>"; };
 		256AC3F00F4B6AF500CF3369 /* ShairPortMenu_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShairPortMenu_Prefix.pch; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 		24029A24135D3D2E00C92AE5 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				242946FE1362BD6600623EEE /* shairPortMenu.icns */,
 				24029A4F135E69DD00C92AE5 /* hairplay-active.png */,
 				24029A50135E69DD00C92AE5 /* hairplay-off.png */,
 				24029A51135E69DD00C92AE5 /* hairplay-on.png */,
@@ -319,6 +322,7 @@
 				24A66BB7135FE05B00EBB481 /* shairport.pl in Resources */,
 				242946BF1361483C00623EEE /* libao.4.dylib in Resources */,
 				2434908613614614004B1BE0 /* hairtunes in Resources */,
+				242946FF1362BD6600623EEE /* shairPortMenu.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
