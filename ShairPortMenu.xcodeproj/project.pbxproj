@@ -22,11 +22,30 @@
 		24029A54135E69DD00C92AE5 /* hairplay-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 24029A50135E69DD00C92AE5 /* hairplay-off.png */; };
 		24029A55135E69DD00C92AE5 /* hairplay-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 24029A51135E69DD00C92AE5 /* hairplay-on.png */; };
 		24029A56135E69DD00C92AE5 /* hairplay-over.png in Resources */ = {isa = PBXBuildFile; fileRef = 24029A52135E69DD00C92AE5 /* hairplay-over.png */; };
-		24A66BB6135FE05B00EBB481 /* hairtunes in Resources */ = {isa = PBXBuildFile; fileRef = 24A66BB4135FE05B00EBB481 /* hairtunes */; };
+		242946BE1361482600623EEE /* libao.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 242946BD1361482600623EEE /* libao.4.dylib */; };
+		242946BF1361483C00623EEE /* libao.4.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 242946BD1361482600623EEE /* libao.4.dylib */; };
+		2434908613614614004B1BE0 /* hairtunes in Resources */ = {isa = PBXBuildFile; fileRef = 2434908513614614004B1BE0 /* hairtunes */; };
 		24A66BB7135FE05B00EBB481 /* shairport.pl in Resources */ = {isa = PBXBuildFile; fileRef = 24A66BB5135FE05B00EBB481 /* shairport.pl */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		242946E21362B78300623EEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 242946AF136146D800623EEE /* hairtunes.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 24A66BC81361339E00EBB481;
+			remoteInfo = hairtunes;
+		};
+		242946E51362B78300623EEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 242946AF136146D800623EEE /* hairtunes.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 24A66BC91361339E00EBB481;
+			remoteInfo = hairtunes;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
@@ -52,7 +71,9 @@
 		24029A50135E69DD00C92AE5 /* hairplay-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hairplay-off.png"; sourceTree = "<group>"; };
 		24029A51135E69DD00C92AE5 /* hairplay-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hairplay-on.png"; sourceTree = "<group>"; };
 		24029A52135E69DD00C92AE5 /* hairplay-over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hairplay-over.png"; sourceTree = "<group>"; };
-		24A66BB4135FE05B00EBB481 /* hairtunes */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = hairtunes; path = bin/shairport/hairtunes; sourceTree = "<group>"; };
+		242946AF136146D800623EEE /* hairtunes.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = hairtunes.xcodeproj; path = bin/hairtunes/hairtunes.xcodeproj; sourceTree = "<group>"; };
+		242946BD1361482600623EEE /* libao.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libao.4.dylib; path = bin/hairtunes/libao.4.dylib; sourceTree = "<group>"; };
+		2434908513614614004B1BE0 /* hairtunes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = hairtunes; sourceTree = BUILT_PRODUCTS_DIR; };
 		24A66BB5135FE05B00EBB481 /* shairport.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; name = shairport.pl; path = bin/shairport/shairport.pl; sourceTree = "<group>"; };
 		256AC3F00F4B6AF500CF3369 /* ShairPortMenu_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShairPortMenu_Prefix.pch; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -67,6 +88,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				242946BE1361482600623EEE /* libao.4.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +168,7 @@
 		24029A1E135D3D2E00C92AE5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				242946AF136146D800623EEE /* hairtunes.xcodeproj */,
 				24A66BB3135FE01000EBB481 /* bin */,
 				24029A24135D3D2E00C92AE5 /* images */,
 				24029A1F135D3D2E00C92AE5 /* about.rtf */,
@@ -166,10 +189,19 @@
 			path = images;
 			sourceTree = "<group>";
 		};
+		242946B0136146D800623EEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				242946E61362B78300623EEE /* hairtunes */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		24A66BB3135FE01000EBB481 /* bin */ = {
 			isa = PBXGroup;
 			children = (
-				24A66BB4135FE05B00EBB481 /* hairtunes */,
+				242946BD1361482600623EEE /* libao.4.dylib */,
+				2434908513614614004B1BE0 /* hairtunes */,
 				24A66BB5135FE05B00EBB481 /* shairport.pl */,
 			);
 			name = bin;
@@ -220,6 +252,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				242946E31362B78300623EEE /* PBXTargetDependency */,
 			);
 			name = ShairPortMenu;
 			productInstallPath = "$(HOME)/Applications";
@@ -245,12 +278,28 @@
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* ShairPortMenu */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 242946B0136146D800623EEE /* Products */;
+					ProjectRef = 242946AF136146D800623EEE /* hairtunes.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8D1107260486CEB800E47090 /* ShairPortMenu */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		242946E61362B78300623EEE /* hairtunes */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = hairtunes;
+			remoteRef = 242946E51362B78300623EEE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8D1107290486CEB800E47090 /* Resources */ = {
@@ -267,8 +316,9 @@
 				24029A54135E69DD00C92AE5 /* hairplay-off.png in Resources */,
 				24029A55135E69DD00C92AE5 /* hairplay-on.png in Resources */,
 				24029A56135E69DD00C92AE5 /* hairplay-over.png in Resources */,
-				24A66BB6135FE05B00EBB481 /* hairtunes in Resources */,
 				24A66BB7135FE05B00EBB481 /* shairport.pl in Resources */,
+				242946BF1361483C00623EEE /* libao.4.dylib in Resources */,
+				2434908613614614004B1BE0 /* hairtunes in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +339,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		242946E31362B78300623EEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = hairtunes;
+			targetProxy = 242946E21362B78300623EEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		24029A21135D3D2E00C92AE5 /* InfoPlist.strings */ = {
@@ -315,6 +373,10 @@
 				GCC_PREFIX_HEADER = ShairPortMenu_Prefix.pch;
 				INFOPLIST_FILE = "ShairPortMenu-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Resources/bin/hairtunes\"",
+				);
 				PRODUCT_NAME = ShairPort;
 			};
 			name = Debug;
@@ -329,6 +391,10 @@
 				GCC_PREFIX_HEADER = ShairPortMenu_Prefix.pch;
 				INFOPLIST_FILE = "ShairPortMenu-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Resources/bin/hairtunes\"",
+				);
 				PRODUCT_NAME = ShairPort;
 			};
 			name = Release;
