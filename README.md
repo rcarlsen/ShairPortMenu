@@ -18,6 +18,25 @@ The above shairport repo is included as a submodule in this project. You will ha
 to initialize the submodule and checkout the latest files in your local copy of this repo.
 Follow the building instructions for ShairPort and hairtunes at the above link.
 
+Requirements
+------------
+After much headache with getting the bundled copy of libao working...I've
+resorted to a system provided version. A simple installation with
+homebrew will work:
+```
+brew install libao
+```
+
+hairtunes also requires openssl/aes.h. homebrew can install and link
+that, too:
+```
+brew install openssl
+brew link --force openssl
+```
+
+Otherwise, adjust the Library and Header searchpaths in the hairtunes
+xcodeproject to match your system configuration.
+
 Building
 --------
 The Xcode project is pretty straightforward. Try to build and run and see what happens. 

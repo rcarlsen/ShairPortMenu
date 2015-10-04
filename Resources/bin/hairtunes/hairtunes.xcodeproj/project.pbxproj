@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		249FCEA41BC1BE040040521F /* libao.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 248F3CF01BC0D7F300B7F97F /* libao.4.dylib */; };
 		24A66BDA1361341F00EBB481 /* libssl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A66BD91361341F00EBB481 /* libssl.dylib */; };
 		24A66BDC1361343C00EBB481 /* libpthread.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A66BDB1361343C00EBB481 /* libpthread.dylib */; };
 		24A66BDE1361344E00EBB481 /* libm.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A66BDD1361344E00EBB481 /* libm.dylib */; };
 		24A66BE4136134A500EBB481 /* alac.c in Sources */ = {isa = PBXBuildFile; fileRef = 24A66BE1136134A500EBB481 /* alac.c */; };
 		24A66BE5136134A500EBB481 /* hairtunes.c in Sources */ = {isa = PBXBuildFile; fileRef = 24A66BE3136134A500EBB481 /* hairtunes.c */; };
-		24A66BEF1361379800EBB481 /* ao in Headers */ = {isa = PBXBuildFile; fileRef = 24A66BED1361372300EBB481 /* ao */; };
 		24A66BF11361391500EBB481 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A66BF01361391500EBB481 /* libcrypto.dylib */; };
-		24A66BF71361409600EBB481 /* libao.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A66BF61361409600EBB481 /* libao.4.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +29,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		248F3CF01BC0D7F300B7F97F /* libao.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libao.4.dylib; sourceTree = "<group>"; };
+		249FCEAA1BC1C23B0040521F /* ao */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ao; path = includes/ao; sourceTree = SOURCE_ROOT; };
 		24A66BC91361339E00EBB481 /* hairtunes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hairtunes; sourceTree = BUILT_PRODUCTS_DIR; };
 		24A66BD91361341F00EBB481 /* libssl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.dylib; path = usr/lib/libssl.dylib; sourceTree = SDKROOT; };
 		24A66BDB1361343C00EBB481 /* libpthread.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpthread.dylib; path = usr/lib/libpthread.dylib; sourceTree = SDKROOT; };
@@ -37,9 +38,7 @@
 		24A66BE1136134A500EBB481 /* alac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = alac.c; path = ../shairport/alac.c; sourceTree = SOURCE_ROOT; };
 		24A66BE2136134A500EBB481 /* alac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = alac.h; path = ../shairport/alac.h; sourceTree = SOURCE_ROOT; };
 		24A66BE3136134A500EBB481 /* hairtunes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hairtunes.c; path = ../shairport/hairtunes.c; sourceTree = SOURCE_ROOT; };
-		24A66BED1361372300EBB481 /* ao */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ao; path = includes/ao; sourceTree = SOURCE_ROOT; };
 		24A66BF01361391500EBB481 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = usr/lib/libcrypto.dylib; sourceTree = SDKROOT; };
-		24A66BF61361409600EBB481 /* libao.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libao.4.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,11 +46,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				249FCEA41BC1BE040040521F /* libao.4.dylib in Frameworks */,
 				24A66BF11361391500EBB481 /* libcrypto.dylib in Frameworks */,
 				24A66BDA1361341F00EBB481 /* libssl.dylib in Frameworks */,
 				24A66BDE1361344E00EBB481 /* libm.dylib in Frameworks */,
 				24A66BDC1361343C00EBB481 /* libpthread.dylib in Frameworks */,
-				24A66BF71361409600EBB481 /* libao.4.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +88,7 @@
 		24A66BD81361340100EBB481 /* libraries */ = {
 			isa = PBXGroup;
 			children = (
-				24A66BF61361409600EBB481 /* libao.4.dylib */,
+				248F3CF01BC0D7F300B7F97F /* libao.4.dylib */,
 				24A66BDD1361344E00EBB481 /* libm.dylib */,
 				24A66BDB1361343C00EBB481 /* libpthread.dylib */,
 				24A66BD91361341F00EBB481 /* libssl.dylib */,
@@ -101,7 +100,7 @@
 		24A66BE61361360000EBB481 /* includes */ = {
 			isa = PBXGroup;
 			children = (
-				24A66BED1361372300EBB481 /* ao */,
+				249FCEAA1BC1C23B0040521F /* ao */,
 			);
 			name = includes;
 			path = hairtunes;
@@ -109,26 +108,15 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		24A66BEE1361379000EBB481 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				24A66BEF1361379800EBB481 /* ao in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
 		24A66BC81361339E00EBB481 /* hairtunes */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24A66BD01361339E00EBB481 /* Build configuration list for PBXNativeTarget "hairtunes" */;
 			buildPhases = (
-				24A66BEE1361379000EBB481 /* Headers */,
 				24A66BC51361339E00EBB481 /* Sources */,
 				24A66BC61361339E00EBB481 /* Frameworks */,
 				24A66BC71361339E00EBB481 /* CopyFiles */,
+				248F3CEF1BC0D76E00B7F97F /* Change libao runpath */,
 			);
 			buildRules = (
 			);
@@ -144,6 +132,8 @@
 /* Begin PBXProject section */
 		24A66BBA1361337400EBB481 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = 24A66BBD1361337400EBB481 /* Build configuration list for PBXProject "hairtunes" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -160,6 +150,24 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		248F3CEF1BC0D76E00B7F97F /* Change libao runpath */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Change libao runpath";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#cd \"${BUILT_PRODUCTS_DIR}\"\n#install_name_tool -change libao.4.dylib @executable_path/libao.4.dylib hairtunes";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		24A66BC51361339E00EBB481 /* Sources */ = {
@@ -214,12 +222,15 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/includes\"/**";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/includes\"/**",
+					/usr/local/include,
+				);
 				INSTALL_PATH = "$(PROJECT_DIR)";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/../../../../../../../_software_dev/libao-1.1.0/output\"",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -234,12 +245,15 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/includes\"/**";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/includes\"/**",
+					/usr/local/include,
+				);
 				INSTALL_PATH = "$(PROJECT_DIR)";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/../../../../../../../_software_dev/libao-1.1.0/output\"",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
