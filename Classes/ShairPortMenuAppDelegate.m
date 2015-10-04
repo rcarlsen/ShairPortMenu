@@ -61,9 +61,18 @@
     statusItem = [[[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength] retain];
     [statusItem sendActionOn:NSLeftMouseDraggedMask];
     [statusItem setMenu:statusMenu];
-    [statusItem setHighlightMode:YES];
-    [statusItem setAlternateImage:[NSImage imageNamed:@"hairplay-over"]];
-    
+
+    // use the more modern version which will handle dark menu bar mode with image templates
+    if ([statusItem respondsToSelector:NSSelectorFromString(@"button")]) {
+        NSImage *buttonImage = [NSImage imageNamed:@"hairplay-on"];
+        buttonImage.template = YES;
+        statusItem.button.image = buttonImage;
+    }
+    else {
+        // these are deprecated...
+        [statusItem setHighlightMode:YES];
+        [statusItem setAlternateImage:[NSImage imageNamed:@"hairplay-over"]];
+    }
 
     [self updateMenuForServer:[shairPortController shairportTask].isRunning];
 }
@@ -74,8 +83,13 @@
 {
     [self setTooltipStatus:isOn];
     
-    if(isOn){        
-        [statusItem setImage:[NSImage imageNamed:@"hairplay-on"]];
+    if(isOn){
+        if ([statusItem respondsToSelector:NSSelectorFromString(@"button")]) {
+            statusItem.button.appearsDisabled = NO;
+        }
+        else {
+            [statusItem setImage:[NSImage imageNamed:@"hairplay-on"]];
+        }
         
         [controlMenuItem setTitle:NSLocalizedString(@"Turn ShairPort off", "Menu item title")];
         [controlMenuItem setState:1];
@@ -90,8 +104,13 @@
     }
     else {
         [self setTooltipStatus:isOn];
-        
-        [statusItem setImage:[NSImage imageNamed:@"hairplay-off"]];
+        if ([statusItem respondsToSelector:NSSelectorFromString(@"button")]) {
+            statusItem.button.appearsDisabled = YES;
+        }
+        else {
+            [statusItem setImage:[NSImage imageNamed:@"hairplay-off"]];
+        }
+
         [controlMenuItem setTitle:NSLocalizedString(@"Turn ShairPort on", "Menu item title")];
         [controlMenuItem setState:0];
         [statusMenuItem setTitle:NSLocalizedString(@"ShairPort: off", "Menu item title")];        
